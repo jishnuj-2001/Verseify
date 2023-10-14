@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stoke&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>Verseify</title>
+    <link rel="icon" href="images/icon.png" >
+</head>
+<body>
+    <header>
+        <div class="l-pad">
+                <a href="#" class="logo-tip"><img class="logo" src="images/logo3.png" alt=""></a>
+                
+        </div>
+        <div class="top-bar">
+            <span class="top-bar-title l-sidebar l-pad">
+                <i class="fa fa-book"></i>
+                <h2>Books</h2>
+                <i class="fa arrow fa-angle-right" style="margin-top: 2px;"></i>
+            </span>
+        </div>
+        
+    </header>
+    <div class="categories l-sidebar">
+        <div class="side-items"><a href="#category/all"><h2>All</h2></a></div>
+        <div class="side-items"><a href="#category/scifi"><h2>Science Fiction</h2></a></div>
+        <div class="side-items"><a href="#category/romance"><h2>Romance</h2></a></div>
+        <div class="side-items"><a href="#category/horror"><h2>Horror</h2></a></div>
+        <div class="side-items"><a href="#category/sport"><h2>Sports</h2></a></div>
+    </div>
+    <div class="books-wrapper ">
+        <div class="books l-content" data-id="home-page">
+            
+        </div>
+        <div class="books l-content " data-id="books-list">
+            
+        </div>
+        <div class="book l-content" data-id="book-detail">
+                     
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="//jashkenas.github.io/underscore/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/Routers/router.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/Models/books.js"></script>
+    <Script src="js/Models/book.js"></Script>
+    <script src="js/Views/BooksList.js"></script>
+    <script src="js/Views/BookDetail.js"></script>
+    <script src="js/Views/homeView.js"></script>
+</body>
+</html>
